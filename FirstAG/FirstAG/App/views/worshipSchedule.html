@@ -1,0 +1,30 @@
+﻿<section>
+    <h2 class="page-title" data-bind="text: title"></h2>
+</section>
+
+<div class="row k-grid k-widget">
+    <table id="songTable" data-role="grid" cellspacing="0" role="grid">
+        <colgroup>
+            <col style="width:35%;" />
+            <col style="width:15%;" />
+            <col style="width:25%;" />
+            <col style="width:25%;" />
+        </colgroup>
+        <thead class="k-grid-header">
+            <tr>
+                <th class="k-header">Song Title</th>
+                <th class="k-header">Song Key</th>
+                <th class="k-header">Sheet Music Download</th>
+                <th class="k-header">Youtube Link</th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach: songList">
+            <tr role="row">
+                <td role="gridcell" data-bind="text: songTitle"></td>
+                <td role="gridcell" data-bind="text: songKey"></td>
+                <td role="gridcell"><input type="button" class="k-button" data-bind="click: $parent.download" value="Download" /></td>
+                <td role="gridcell"><a href="#" data-bind="attr: { href: youtubeLink }, text: songTitle() + ' video'" target="_blank"></a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
