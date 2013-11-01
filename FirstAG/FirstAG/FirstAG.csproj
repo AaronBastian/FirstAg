@@ -209,6 +209,7 @@
     <Content Include="Content\durandal.css" />
     <Content Include="Content\ie10mobile.css" />
     <Content Include="Content\images\agLogo.gif" />
+    <Content Include="Content\images\churchstreetphoto.jpg" />
     <Content Include="Content\images\glyphicons-halflings-white.png" />
     <Content Include="Content\images\glyphicons-halflings.png" />
     <Content Include="Content\images\icon.png" />
