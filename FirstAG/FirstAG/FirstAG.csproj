@@ -184,7 +184,7 @@
     <Content Include="App\main.js" />
     <Content Include="App\services\logger.js" />
     <Content Include="App\viewmodels\calendar.js" />
-    <Content Include="App\viewmodels\details.js" />
+    <Content Include="App\viewmodels\services.js" />
     <Content Include="App\viewmodels\home.js" />
     <Content Include="App\viewmodels\kids.js" />
     <Content Include="App\viewmodels\men.js" />
@@ -192,7 +192,7 @@
     <Content Include="App\viewmodels\women.js" />
     <Content Include="App\viewmodels\worshipSchedule.js" />
     <Content Include="App\views\calendar.html" />
-    <Content Include="App\views\details.html" />
+    <Content Include="App\views\services.html" />
     <Content Include="App\views\footer.html" />
     <Content Include="App\views\home.html" />
     <Content Include="App\views\kids.html" />
@@ -213,6 +213,7 @@
     <Content Include="Content\images\churchstreetphoto.jpg" />
     <Content Include="Content\images\glyphicons-halflings-white.png" />
     <Content Include="Content\images\glyphicons-halflings.png" />
+    <Content Include="Content\images\heaven2.jpg" />
     <Content Include="Content\images\icon.png" />
     <Content Include="Content\toastr.css" />
     <Content Include="Content\toastr.min.css" />

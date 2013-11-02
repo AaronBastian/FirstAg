@@ -5,10 +5,10 @@
             moduleId: 'viewmodels/home',
             name: 'home'
         },
-        details: {
-            url: 'details',
-            moduleId: 'viewmodels/details',
-            name: 'details'
+        services: {
+            url: 'services',
+            moduleId: 'viewmodels/services',
+            name: 'services'
         },
         worshipSchedule: {
             url: 'worshipSchedule',

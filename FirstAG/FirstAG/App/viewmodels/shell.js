@@ -14,7 +14,7 @@
 
         function boot() {
             router.mapTo(routeConfig.home);
-            router.mapTo(routeConfig.details);
+            router.mapTo(routeConfig.services);
             router.mapTo(routeConfig.worshipSchedule);
             router.mapTo(routeConfig.kids);
             router.mapTo(routeConfig.men);
