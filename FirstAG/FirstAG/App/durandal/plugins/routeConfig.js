@@ -34,7 +34,17 @@
             url: 'calendar',
             moduleId: 'viewmodels/calendar',
             name: 'calendar'
+        },
+        friends: {
+            url: 'friends',
+            moduleId: 'viewmodels/friends',
+            name: 'friends'
+        },
+        rangers: {
+            url: 'rangers',
+            moduleID: 'viewmodels/rangers',
+            name: 'rangers'
         }
-    };
+};
     return hashes;
 });
