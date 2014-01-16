@@ -17,9 +17,11 @@
             router.mapTo(routeConfig.services);
             router.mapTo(routeConfig.worshipSchedule);
             router.mapTo(routeConfig.kids);
+            router.mapTo(routeConfig.rangers);
             router.mapTo(routeConfig.men);
             router.mapTo(routeConfig.women);
             router.mapTo(routeConfig.calendar);
+            
             return router.activate('home');
         }
 
